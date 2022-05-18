@@ -1,4 +1,55 @@
+body {
+    background-color: #9D8D8F;
+    text-align: center;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 3%;
+    color: #46344E;
+}
+
+#profile-pic {
+    height: 20vh;
+}
+
 .checked
 {
-    color: orange;
+    color: #FAED26;
+}
+
+h1 {
+    color: #FAED26;
+}
+
+h3 {
+    color: #FAED26;
+}
+
+.top-container {
+    background-color: #5A5560;
+    position: relative;
+    padding-top: 80px;
+}
+
+.middle-container {
+    background-color: #9D8D8F;
+}
+
+.bottom-container {
+    background-color: #9B786F;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+    bottom: 300px;
 }
